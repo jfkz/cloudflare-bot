@@ -1,0 +1,36 @@
+{
+  "name": "cloudflare-bot",
+  "version": "0.1.0",
+  "description": "The Cloudflare bot for Slack messenger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfkz/cloudflare-bot.git"
+  },
+  "keywords": [
+    "slack",
+    "nodejs",
+    "javascript",
+    "cloudflare"
+  ],
+  "author": "jfkz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfkz/cloudflare-bot/issues"
+  },
+  "homepage": "https://github.com/jfkz/cloudflare-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "express": "^4.13.0",
+    "i18n": "^0.7.0",
+    "jade": "^1.11.0",
+    "morgan": "^1.6.0",
+    "request": "^2.62.0",
+    "serve-favicon": "^2.3.0"
+  }
+}
